@@ -1,145 +1,138 @@
+
+.box{
+ height: 630px;
+ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+ 
+ padding: 10px;
+}
+
 .gn{
-
-    text-align: left;
-    padding-left: 6px;
-
-    background-color:lightgrey;
-
+ text-align: left;
+ background-color: #f0f5f5;
 }
-
 .table1,td,th{
-
-    border: 1px solid #ddd;
-
-    text-align: left;
-
+ /* border: 1px solid #ddd; */
+ border: 1px solid #ccc;
+ text-align: left;
+ color: #000;
+ font-weight: 800;
+ padding: 5px 15px;
+ font-size: 14px;
+ text-transform: uppercase;
+ box-sizing: border-box;
+ line-height: 17px;
 }
-
 td,tr{
-
-    height: 40px;
-
+ height: 40px;
 }
-
 th{
-
-    height: 30px;
-
-    text-align: center;
-    font-size: 20px;
-
-
+ height: 30px;
+ text-align: center;
 
 }
-
 .table1{
-
-    border-collapse: collapse;
-
-    width: 100%;
-
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .table2
 
 {
 
-    border-collapse: collapse;
+  border-collapse: collapse;
 
-    width: 50%;
+  width: 50%;
+
+  border: 1px solid #ccc;
+
+  text-align: left;
+
+  color: #000;
+
+  font-weight: 800;
+
+  padding: 5px 15px;
+
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+  box-sizing: border-box;
+
+  line-height: 17px;
 
 }
+
+
+
+.table2 th{
+
+  padding: 10px;
+
+}
+
+
 
 .doc{
 
-    width: 80%;
+  width: 80%;
 
-    text-align: left;
-
-    padding: 10px;  
-
-}
-#box2
-
-{
-
- position: fixed;
-
- bottom: -4px;
-
- right: 10px;
- border-radius: 0px;
- 
+  text-align: left;
 
 }
 
-.save
-
-{
-
-    background-color: #31B0D5;
-
-    color: white;
-
-    padding: 10px 20px;
-
-    height: 38px;
-
-    border-color: #46b8da;
-    margin: 16px;
-
-}
-
-.continue
-
-{
-
-    background-color: #31B0D5;
-
-    color: white;
-
-    padding: 10px 20px;
 
 
+.save, .continue{
 
-    border-color: #46b8da;
-    margin: 16px;
+  background-color: #31B0D5;
+
+  color: white;
+
+  padding: 10px 20px;
+
+  border-color: #46b8da;
+
+  margin-bottom: 30px;
 
 }
 
-#box3
 
-{
 
-    position: fixed;
+.exit{
 
-    bottom: -4px;
+  background-color: transparent;
 
-    left: 10px;  
+  color: #31B0D5;
 
-}
+  padding: 10px 20px;
 
-.exit
+  border-color: #46b8da;  
 
-{
-
-   
-
-       
-
-        color: #31B0D5;
-
-        padding: 10px 20px;
-
-        margin: 16px;
-        border-color: #46b8da;
-        background: transparent;
-
-     
+  margin-bottom: 30px;
 
 }
-.SMain{
-    height: 600px ;
 
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+
+
+#box2{
+
+  position: fixed;
+
+  bottom: -4px;
+
+  right: 10px;
+
+ }
+
+
+
+#box3{
+
+  position: fixed;
+
+  bottom: -4px;
+
+  left: 10px;  
+
 }
